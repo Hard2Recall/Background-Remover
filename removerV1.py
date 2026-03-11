@@ -1,4 +1,4 @@
-from withoutbg import WithoutBG
+from withoutbg import *
 
 # Initialize model once
 model = WithoutBG.opensource()
