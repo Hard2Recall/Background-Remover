@@ -3,7 +3,7 @@ from withoutbg import WithoutBG
 # Initialize model once
 model = WithoutBG.opensource()
 
-img = "Screenshot_1.png" #instead of Screenshot_1.png type in your picture name and its extention
+img = "Screenshot_1.png" #instead of Screenshot_1.png type in your picture name and file type
 
 # Process image
 result = model.remove_background(img)
